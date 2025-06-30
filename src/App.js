@@ -2,10 +2,10 @@ import React from 'react';
 import './index.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <button className="open-modal-btn">✨ Открыть окно</button>
-      {/* <div className="overlay">
+   return (
+      <div className="App">
+         <button className="open-modal-btn">✨ Открыть окно</button>
+         {/* <div className="overlay">
         <div className="modal">
           <svg height="200" viewBox="0 0 200 200" width="200">
             <title />
@@ -14,8 +14,8 @@ function App() {
           <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
         </div>
       </div> */}
-    </div>
-  );
+      </div>
+   );
 }
 
 export default App;
